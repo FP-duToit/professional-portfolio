@@ -28,9 +28,44 @@ const semesters = {
         },
 
         {
-            module: "Decision Support Systems I",
+            module: "Decision Support Systems 1",
             code: "CMPG312",
             mark: 65,
+            distinction: false
+        }
+
+    ],
+
+    // =====================================================
+    // 2026 Second Semester
+    // =====================================================
+    "semester-2026-2": [
+
+        {
+            module: "Advanced Databases",
+            code: "CMPG321",
+            mark: 87,
+            distinction: true
+        },
+
+        {
+            module: "Decision Support Systems 2",
+            code: "CMPG322",
+            mark: 84.5,
+            distinction: true
+        },
+
+        {
+            module: "IT Developments",
+            code: "CMPG323",
+            mark: 80,
+            distinction: true
+        },
+
+        {
+            module: "Operating Systems",
+            code: "CMPG324",
+            mark: 67.5,
             distinction: false
         }
 
@@ -71,7 +106,7 @@ const semesters = {
         },
 
         {
-            module: "System Analysis and Design I",
+            module: "System Analysis and Design 1",
             code: "CMPG213",
             mark: 67,
             distinction: false
@@ -93,7 +128,7 @@ const semesters = {
     "semester-2025-2": [
 
         {
-            module: "Data Analytics II",
+            module: "Data Analytics 2",
             code: "CMPG222",
             mark: 70,
             distinction: false
@@ -121,7 +156,7 @@ const semesters = {
         },
 
         {
-            module: "System Analysis and Design II",
+            module: "System Analysis and Design 2",
             code: "CMPG223",
             mark: 68,
             distinction: false
@@ -143,7 +178,7 @@ const semesters = {
     "semester-2024-1": [
 
         {
-            module: "Academic Literacy Development I",
+            module: "Academic Literacy Development 1",
             code: "ALDE111",
             mark: null,
             result: "Recognised",
@@ -194,14 +229,14 @@ const semesters = {
     "semester-2024-2": [
 
         {
-            module: "Academic Literacy Development II",
+            module: "Academic Literacy Development 2",
             code: "ALDE122",
             mark: 77,
             distinction: true
         },
 
         {
-            module: "Introductory Statistical Inference I",
+            module: "Introductory Statistical Inference 1",
             code: "STTN121",
             mark: 75,
             distinction: true
@@ -222,7 +257,7 @@ const semesters = {
         },
 
         {
-            module: "User Interface Programming I",
+            module: "User Interface Programming 1",
             code: "CMPG122",
             mark: 96,
             distinction: true
