@@ -11,7 +11,7 @@ const academicSummary = {
 
     studyMode: "Distance Learning",
 
-    expectedGraduation: "Dec 2026",
+    graduation: "Dec 2026",
 
     distinctions: 21,
 
