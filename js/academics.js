@@ -13,9 +13,9 @@ const academicSummary = {
 
     expectedGraduation: "Dec 2026",
 
-    distinctions: 18,
+    distinctions: 21,
 
-    completedModules: 27,
+    completedModules: 30,
 
     matricAverage: 83.14
 
@@ -26,6 +26,20 @@ const academicYears = [
 
     {
         year: "2026",
+        semester: "Second Semester",
+
+        modules: [
+
+            { code: "CMPG321", name: "Advanced Databases", mark: 87 },
+            { code: "CMPG322", name: "Decision Support Systems 2", mark: 84.5 },
+            { code: "CMPG323", name: "IT Developments ", mark: 80 },
+            { code: "CMPG324", name: "Operating Systems", mark: 67.5 },
+
+        ]
+    },
+
+    {
+        year: "2026",
         semester: "First Semester",
 
         modules: [
@@ -33,7 +47,7 @@ const academicYears = [
             { code: "CMPG313", name: "Artificial Intelligence", mark: 75 },
             { code: "CMPG315", name: "Computer Networks", mark: 68 },
             { code: "CMPG311", name: "Databases", mark: 75 },
-            { code: "CMPG312", name: "Decision Support Systems I", mark: 65 }
+            { code: "CMPG312", name: "Decision Support Systems 1", mark: 65 }
 
         ]
     },
@@ -44,11 +58,11 @@ const academicYears = [
 
         modules: [
 
-            { code: "CMPG222", name: "Data Analytics II", mark: 70 },
+            { code: "CMPG222", name: "Data Analytics 2", mark: 70 },
             { code: "CMPG221", name: "Data Structures & Algorithms", mark: 60 },
             { code: "MTHS225", name: "Discrete Mathematics", mark: 86 },
             { code: "BMAN223", name: "Problem Solving for Managers", mark: 81 },
-            { code: "CMPG223", name: "System Analysis & Design II", mark: 68 },
+            { code: "CMPG223", name: "System Analysis & Design 2", mark: 68 },
             { code: "WVNS221", name: "Understanding the Natural World", mark: 83 }
 
         ]
@@ -64,7 +78,7 @@ const academicYears = [
             { code: "CMPG214", name: "Communication Skills", mark: 82 },
             { code: "CMPG215", name: "Information Security", mark: 81 },
             { code: "CMPG211", name: "Object-Oriented Programming", mark: 76 },
-            { code: "CMPG213", name: "System Analysis & Design I", mark: 67 },
+            { code: "CMPG213", name: "System Analysis & Design 1", mark: 67 },
             { code: "WVNS211", name: "Understanding the Natural World", mark: 77 }
 
         ]
@@ -77,10 +91,10 @@ const academicYears = [
         modules: [
 
             { code: "ALDE122", name: "Academic Literacy Development", mark: 77 },
-            { code: "STTN121", name: "Intro Statistical Inference I", mark: 75 },
+            { code: "STTN121", name: "Intro Statistical Inference 1", mark: 75 },
             { code: "CMPG121", name: "Structured Programming", mark: 58 },
             { code: "ACCS121", name: "Financial Accounting (Special)", mark: 69 },
-            { code: "CMPG122", name: "User Interface Programming I", mark: 96 }
+            { code: "CMPG122", name: "User Interface Programming 1", mark: 96 }
 
         ]
     },
